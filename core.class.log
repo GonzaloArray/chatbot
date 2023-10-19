@@ -1,0 +1,37 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491135801669@s.whatsapp.net',
+    fromMe: false,
+    id: 'DB191497970FCC4F3922205719B24AFD',
+    participant: undefined
+  },
+  messageTimestamp: 1697745106,
+  pushName: 'Lucas',
+  broadcast: false,
+  message: Message {
+    conversation: 'ole',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'ole',
+  from: '5491135801669'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8133a25f-c060-4dd4-9aa6-a67e6915dc24',
+  keyword: 'key_3f1f962e-80fa-4ac6-80ef-d2ae6336824f',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5f85665dbcca0c771526afd7c56a7bc4'
+}
