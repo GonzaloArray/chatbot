@@ -4,6 +4,7 @@ const {join} = require('path')
 const router = express.Router();
 const chatWoodHook = async (req, res) => {
   const providerWs = req.providerWs
+  console.log(providerWs)
   const body = req.body;
   if (body?.private) {
     res.send(null)

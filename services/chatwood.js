@@ -1,6 +1,6 @@
 const sendMessageChatWood = async (msg = '', message_type = '') => {
   const myHeaders = new Headers();
-  myHeaders.append('api_access_token', 'scYvKSvYrrbnyNuaotk7kFUy');
+  myHeaders.append('api_access_token', 'aZ3o534wewCdYoLWcJBoimD8');
   myHeaders.append('Content-Type', 'application/json');
 
   const raw = JSON.stringify({
@@ -17,10 +17,10 @@ const sendMessageChatWood = async (msg = '', message_type = '') => {
     body: raw
   };
 
-  const accountId = 4;
+  const accountId = 1;
   const conversationId = 1;
 
-  const url = `https://2j29grb3-3000.brs.devtunnels.ms/api/v1/accounts/${accountId}/conversations/${conversationId}/messages`;
+  const url = `http://localhost:3000/api/v1/accounts/${accountId}/conversations/${conversationId}/messages`;
 
   try {
     const response = await fetch(url, requestOptions);
@@ -34,7 +34,6 @@ const sendMessageChatWood = async (msg = '', message_type = '') => {
     const contentType = response.headers.get('content-type');
     if (contentType && contentType.includes('application/json')) {
       const data = await response.json();
-      console.log(data);
       return data;
     } else {
       console.error('La respuesta no es de tipo JSON.');
