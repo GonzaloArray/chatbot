@@ -15,7 +15,14 @@ const chatWoodHook = async (req, res) => {
   res.send(body)
 }
 
+let consultaIaActiva = true
+
 router.post('/chatwood-hook', chatWoodHook)
+router.get('/toggle-consulta-ia', (req, res) => {
+  console.log(consultaIaActiva)
+  consultaIaActiva = !consultaIaActiva;
+  res.json({ consultaIaActiva, msg: 'Consulta Success' });
+});
 router.get("/get-qr", async (_, res) => {
   const YOUR_PATH_QR = join(process.cwd(), `bot.qr.png`);
   const fileStream = createReadStream(YOUR_PATH_QR);
@@ -24,4 +31,4 @@ router.get("/get-qr", async (_, res) => {
   fileStream.pipe(res);
 });
 
-module.exports = {chatWoodHook, router}
+module.exports = {chatWoodHook, router, consultaIaActiva}

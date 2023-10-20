@@ -10,6 +10,7 @@ const MockAdapter = require("@bot-whatsapp/database/mock");
 const ServerHttp = require("./http");
 const { sendMessageChatWood } = require("./services/chatwood");
 const { query } = require("./services/queryIA");
+const { consultaIaActiva } = require("./http/routes/chatwood-hook");
 
 const flowPrincipal = addKeyword(["hola", "ole", "alo"]).addAction(
   async (ctx, { flowDynamic }) => {
@@ -20,7 +21,8 @@ const flowPrincipal = addKeyword(["hola", "ole", "alo"]).addAction(
     await flowDynamic(data);
   }
 ).addAnswer('Ingresa tu pregunta', {capture: true},async (ctx, { flowDynamic, fallBack }) => {
-  if (!ctx.body.includes('chau')) {
+  console.log(consultaIaActiva)
+  if (consultaIaActiva) {
     const MESSAGE = ctx.body;
 
     const data = await query({"question": MESSAGE})

@@ -1,239 +1,12 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5491137665716@s.whatsapp.net',
+    remoteJid: '5491127004778@s.whatsapp.net',
     fromMe: false,
-    id: '3A1DDE28DD5311B9E2F20A70812DC1B9',
+    id: '4E80CB990346FE5B07B1C96B8445499D',
     participant: undefined
   },
-  messageTimestamp: 1697811496,
-  pushName: 'NAZARENA 💜',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Holaa',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Holaa',
-  from: '5491137665716'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_dc23c625-5032-46a8-91f9-772de77f31ef',
-  keyword: 'key_49923165-ebc2-4bf4-b41a-df621525dcc4',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '4783a75037024e81551108d25ce58928'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8dfb6f9a-cab2-47fc-894f-6f293ac39cce',
-  keyword: 'ans_dc23c625-5032-46a8-91f9-772de77f31ef',
-  answer: 'Ingresa tu pregunta',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'd96222d6506f8d70d5719588f6151550'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491137665716@s.whatsapp.net',
-    fromMe: false,
-    id: 'E82E465E94746B030BAC16DCC582A10E',
-    participant: undefined
-  },
-  messageTimestamp: 1697811529,
-  pushName: 'NAZARENA 💜',
-  broadcast: false,
-  message: Message {
-    conversation: 'Como esta el clima',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Como esta el clima',
-  from: '5491137665716'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491137665716@s.whatsapp.net',
-    fromMe: false,
-    id: '0A533E0A3D4A9043BD59ED53E35C3F13',
-    participant: undefined
-  },
-  messageTimestamp: 1697811566,
-  pushName: 'NAZARENA 💜',
-  broadcast: false,
-  message: Message {
-    conversation: 'Quien es Roberto carlos',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Quien es Roberto carlos',
-  from: '5491137665716'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491137665716@s.whatsapp.net',
-    fromMe: false,
-    id: '7B3E093426F84BB5171FCCF84A91F32A',
-    participant: undefined
-  },
-  messageTimestamp: 1697811596,
-  pushName: 'NAZARENA 💜',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Que es la hidrocefalia',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Que es la hidrocefalia',
-  from: '5491137665716'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491137790233@s.whatsapp.net',
-    fromMe: false,
-    id: '591EA72E7D01CB8D4A1B567CC236D5D7',
-    participant: undefined
-  },
-  messageTimestamp: 1697811645,
-  pushName: 'Juana',
-  broadcast: false,
-  message: Message {
-    audioMessage: AudioMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7117-24/382995330_865124814961341_1057345173988435549_n.enc?ccb=11-4&oh=01_AdSd78VI8wc_WqFz9sh8f3lrWaJGQbHZPSmIk8VtREPQtw&oe=6559E419&_nc_sid=000000&mms3=true',
-      mimetype: 'audio/ogg; codecs=opus',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 15,
-      ptt: true,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7117-24/382995330_865124814961341_1057345173988435549_n.enc?ccb=11-4&oh=01_AdSd78VI8wc_WqFz9sh8f3lrWaJGQbHZPSmIk8VtREPQtw&oe=6559E419&_nc_sid=000000',
-      mediaKeyTimestamp: [Long],
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '_event_voice_note__f446dcbe-436b-4a52-8dc7-423e37a205c9',
-  from: '5491137790233'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491137790233@s.whatsapp.net',
-    fromMe: false,
-    id: '305B16FAF03332B821E67D2F67FFBB87',
-    participant: undefined
-  },
-  messageTimestamp: 1697811749,
-  pushName: 'Juana',
-  broadcast: false,
-  message: Message {
-    audioMessage: AudioMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7117-24/40769571_7118121414918319_3298633289503503527_n.enc?ccb=11-4&oh=01_AdRfY2y9XlYe-zkzdzZWXXQJ36DAHd2WimIdqpzufD3INw&oe=655A1433&_nc_sid=000000&mms3=true',
-      mimetype: 'audio/ogg; codecs=opus',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 4,
-      ptt: true,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7117-24/40769571_7118121414918319_3298633289503503527_n.enc?ccb=11-4&oh=01_AdRfY2y9XlYe-zkzdzZWXXQJ36DAHd2WimIdqpzufD3INw&oe=655A1433&_nc_sid=000000',
-      mediaKeyTimestamp: [Long]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '_event_voice_note__68f44d48-0a14-4ab0-ac03-ff038998ca95',
-  from: '5491137790233'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493584267977@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB034CB1A9F2911D5110F',
-    participant: undefined
-  },
-  messageTimestamp: 1697811781,
-  pushName: 'Lucho',
-  broadcast: false,
-  message: Message {
-    conversation: 'que bien',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'que bien',
-  from: '5493584267977'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493584267977@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0A5615DBED842E98F23',
-    participant: undefined
-  },
-  messageTimestamp: 1697811783,
-  pushName: 'Lucho',
-  broadcast: false,
-  message: Message {
-    conversation: 'a ver jajaja',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'a ver jajaja',
-  from: '5493584267977'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493584267977@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB06867F202A152093E9A',
-    participant: undefined
-  },
-  messageTimestamp: 1697811786,
-  pushName: 'Lucho',
+  messageTimestamp: 1697824819,
+  pushName: 'TikShop 🌈🌎✨☁️',
   broadcast: false,
   message: Message {
     conversation: 'hola',
@@ -243,11 +16,11 @@
     }
   },
   body: 'hola',
-  from: '5493584267977'
+  from: '5491127004778'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_dc23c625-5032-46a8-91f9-772de77f31ef',
-  keyword: 'key_49923165-ebc2-4bf4-b41a-df621525dcc4',
+  ref: 'ans_69de48bb-e9a9-465b-b8b5-16355ce9e173',
+  keyword: 'key_c87f7e6a-c9f1-49d8-bdb5-7e644d5af787',
   answer: '__call_action__',
   options: {
     media: null,
@@ -260,124 +33,34 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '4783a75037024e81551108d25ce58928'
+  refSerialize: 'f056ae36c817bf414cb828f056ae9d3d'
 }
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8dfb6f9a-cab2-47fc-894f-6f293ac39cce',
-  keyword: 'ans_dc23c625-5032-46a8-91f9-772de77f31ef',
-  answer: 'Ingresa tu pregunta',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'd96222d6506f8d70d5719588f6151550'
-}
+Error al encolar (ID ans_69de48bb-e9a9-465b-b8b5-16355ce9e173): SyntaxError: Unexpected token 'T', "This model"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6662:19)
+    at successSteps (node:internal/deps/undici/undici:6636:27)
+    at node:internal/deps/undici/undici:1236:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [handleMsg]:  {
   key: {
-    remoteJid: '5493584267977@s.whatsapp.net',
+    remoteJid: '5491127004778@s.whatsapp.net',
     fromMe: false,
-    id: '3EB07498568EF868E7CCC2',
+    id: 'C65FF698BC5A2CB788F64B674AEF2623',
     participant: undefined
   },
-  messageTimestamp: 1697811823,
-  pushName: 'Lucho',
+  messageTimestamp: 1697824830,
+  pushName: 'TikShop 🌈🌎✨☁️',
   broadcast: false,
   message: Message {
-    conversation: 'estoy hablando con la AI o gonza?',
+    conversation: 'de que se trata el texto La construcción subjetiva del niño de la autora Mariana Karol.',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  status: 4,
-  body: 'estoy hablando con la AI o gonza?',
-  from: '5493584267977'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493584267977@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0F2B66D000260D21E51',
-    participant: undefined
-  },
-  messageTimestamp: 1697811864,
-  pushName: 'Lucho',
-  broadcast: false,
-  message: Message {
-    conversation: 'jajajajaj',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'jajajajaj',
-  from: '5493584267977'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493584267977@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0B5959AB4491C424637',
-    participant: undefined
-  },
-  messageTimestamp: 1697811865,
-  pushName: 'Lucho',
-  broadcast: false,
-  message: Message {
-    conversation: 'que bien',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'que bien',
-  from: '5493584267977'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493584267977@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0737A70D252503C4898',
-    participant: undefined
-  },
-  messageTimestamp: 1697811874,
-  pushName: 'Lucho',
-  broadcast: false,
-  message: Message {
-    conversation: 'JAJAJAJ',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  status: 4,
-  body: 'JAJAJAJ',
-  from: '5493584267977'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5493584267977@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB01B28DE7E26EE7DC820',
-    participant: undefined
-  },
-  messageTimestamp: 1697811884,
-  pushName: 'Lucho',
-  broadcast: false,
-  message: Message {
-    conversation: 'si veo!',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'si veo!',
-  from: '5493584267977'
+  body: 'de que se trata el texto La construcción subjetiva del niño de la autora Mariana Karol.',
+  from: '5491127004778'
 }
