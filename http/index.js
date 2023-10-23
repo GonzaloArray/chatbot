@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors'); 
 const { router } = require('./routes/chatwood-hook');
 
 
@@ -12,6 +13,7 @@ class ServerHttp {
 
   buildApp = () => {
     return this.app = express()
+    .use(cors())
     .use(express.json())
     .use((req, res, next) => {
       req.providerWs = this.providerWs
