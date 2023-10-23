@@ -1,12 +1,12 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5491127004778@s.whatsapp.net',
+    remoteJid: '5491163762517@s.whatsapp.net',
     fromMe: false,
-    id: '4E80CB990346FE5B07B1C96B8445499D',
+    id: '77FF23A1B7BF74D8B5870911F3E00F27',
     participant: undefined
   },
-  messageTimestamp: 1697824819,
-  pushName: 'TikShop 🌈🌎✨☁️',
+  messageTimestamp: 1698012193,
+  pushName: 'Rocio',
   broadcast: false,
   message: Message {
     conversation: 'hola',
@@ -16,11 +16,11 @@
     }
   },
   body: 'hola',
-  from: '5491127004778'
+  from: '5491163762517'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_69de48bb-e9a9-465b-b8b5-16355ce9e173',
-  keyword: 'key_c87f7e6a-c9f1-49d8-bdb5-7e644d5af787',
+  ref: 'ans_28ebf7b2-08aa-4670-a673-c9a93550e674',
+  keyword: 'key_89648fdf-f59e-4fd1-9d71-c73a22f8804e',
   answer: '__call_action__',
   options: {
     media: null,
@@ -33,34 +33,176 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'f056ae36c817bf414cb828f056ae9d3d'
+  refSerialize: '26b044624a3c52dcd0b13050cbfe52c4'
 }
-Error al encolar (ID ans_69de48bb-e9a9-465b-b8b5-16355ce9e173): SyntaxError: Unexpected token 'T', "This model"... is not valid JSON
-    at JSON.parse (<anonymous>)
-    at parseJSONFromBytes (node:internal/deps/undici/undici:6662:19)
-    at successSteps (node:internal/deps/undici/undici:6636:27)
-    at node:internal/deps/undici/undici:1236:60
-    at node:internal/process/task_queues:140:7
-    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
-    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [handleMsg]:  {
   key: {
-    remoteJid: '5491127004778@s.whatsapp.net',
+    remoteJid: '5491163762517@s.whatsapp.net',
     fromMe: false,
-    id: 'C65FF698BC5A2CB788F64B674AEF2623',
+    id: '740B57563419D3397EFDA6C079C3F3A6',
     participant: undefined
   },
-  messageTimestamp: 1697824830,
-  pushName: 'TikShop 🌈🌎✨☁️',
+  messageTimestamp: 1698012207,
+  pushName: 'Rocio',
   broadcast: false,
   message: Message {
-    conversation: 'de que se trata el texto La construcción subjetiva del niño de la autora Mariana Karol.',
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'de que se trata el texto La construcción subjetiva del niño de la autora Mariana Karol.',
-  from: '5491127004778'
+  body: 'Hola',
+  from: '5491163762517'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_28ebf7b2-08aa-4670-a673-c9a93550e674',
+  keyword: 'key_89648fdf-f59e-4fd1-9d71-c73a22f8804e',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '26b044624a3c52dcd0b13050cbfe52c4'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_012185cc-0816-40c3-9612-cc16ebe8698f',
+  keyword: 'ans_28ebf7b2-08aa-4670-a673-c9a93550e674',
+  answer: 'Ingresa tu pregunta',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5fd8bcdb3c62a367b505ccbc5db9e941'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_012185cc-0816-40c3-9612-cc16ebe8698f',
+  keyword: 'ans_28ebf7b2-08aa-4670-a673-c9a93550e674',
+  answer: 'Ingresa tu pregunta',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5fd8bcdb3c62a367b505ccbc5db9e941'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491163762517@s.whatsapp.net',
+    fromMe: false,
+    id: 'B11777643AC4A967D112C1532CB2F1C5',
+    participant: undefined
+  },
+  messageTimestamp: 1698012236,
+  pushName: 'Rocio',
+  broadcast: false,
+  message: Message {
+    conversation: 'va a llover hoy?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'va a llover hoy?',
+  from: '5491163762517'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491163762517@s.whatsapp.net',
+    fromMe: false,
+    id: '4A2CC74242D90F993B64E9F414A27738',
+    participant: undefined
+  },
+  messageTimestamp: 1698012284,
+  pushName: 'Rocio',
+  broadcast: false,
+  message: Message {
+    conversation: 'que tan reales son tus respuestas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'que tan reales son tus respuestas',
+  from: '5491163762517'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491163762517@s.whatsapp.net',
+    fromMe: false,
+    id: '0CD80B46E872AB5B9F519EEE5FE782E3',
+    participant: undefined
+  },
+  messageTimestamp: 1698012345,
+  pushName: 'Rocio',
+  broadcast: false,
+  message: Message {
+    conversation: 'La inteligencia artificial va a ser la nueva era?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'La inteligencia artificial va a ser la nueva era?',
+  from: '5491163762517'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491163762517@s.whatsapp.net',
+    fromMe: false,
+    id: '8882088C7ADE9DEDF30C13022522B5C8',
+    participant: undefined
+  },
+  messageTimestamp: 1698012442,
+  pushName: 'Rocio',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cuando murió huguito flores',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuando murió huguito flores',
+  from: '5491163762517'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491163762517@s.whatsapp.net',
+    fromMe: false,
+    id: '3EAEBA97879BCA647D24DB5C6730526F',
+    participant: undefined
+  },
+  messageTimestamp: 1698012486,
+  pushName: 'Rocio',
+  broadcast: false,
+  message: Message {
+    conversation: 'Es famoso en el mundo de la guaracha, me decepcionaste',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Es famoso en el mundo de la guaracha, me decepcionaste',
+  from: '5491163762517'
 }
